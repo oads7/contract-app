@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3A8293CF-CEAD-40B0-B976-FABA5850CE56}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ContractApp.My.MyApplication</StartupObject>
+    <RootNamespace>ContractApp</RootNamespace>
+    <AssemblyName>ContractApp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ContractApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ContractApp.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icono.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bitacora_Form.Designer.vb">
+      <DependentUpon>Bitacora_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bitacora_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading_Screen.Designer.vb">
+      <DependentUpon>Loading_Screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Loading_Screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Msgbox_Dialog.Designer.vb">
+      <DependentUpon>Msgbox_Dialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Msgbox_Dialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal_Form.Designer.vb">
+      <DependentUpon>Principal_Form.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Registro_Afiliaciones_Dialog.Designer.vb">
+      <DependentUpon>Registro_Afiliaciones_Dialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro_Afiliaciones_Dialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro_Contrato_Dialog.Designer.vb">
+      <DependentUpon>Registro_Contrato_Dialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro_Contrato_Dialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro_DatosFamiliar_Dialog.Designer.vb">
+      <DependentUpon>Registro_DatosFamiliar_Dialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro_DatosFamiliar_Dialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro_Form.Designer.vb">
+      <DependentUpon>Registro_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registro_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerDocumentacion_Form.Designer.vb">
+      <DependentUpon>VerDocumentacion_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VerDocumentacion_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerDocum_AdjRenov_Dialog.Designer.vb">
+      <DependentUpon>VerDocum_AdjRenov_Dialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VerDocum_AdjRenov_Dialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerDocum_ListCoinc_Dialog.Designer.vb">
+      <DependentUpon>VerDocum_ListCoinc_Dialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VerDocum_ListCoinc_Dialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerDocum_ModifDat_Dialog.Designer.vb">
+      <DependentUpon>VerDocum_ModifDat_Dialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VerDocum_ModifDat_Dialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerDocum_VerOtrDat_Dialog.Designer.vb">
+      <DependentUpon>VerDocum_VerOtrDat_Dialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VerDocum_VerOtrDat_Dialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bitacora_Form.resx">
+      <DependentUpon>Bitacora_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading_Screen.resx">
+      <DependentUpon>Loading_Screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Msgbox_Dialog.resx">
+      <DependentUpon>Msgbox_Dialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal_Form.resx">
+      <DependentUpon>Principal_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro_Afiliaciones_Dialog.resx">
+      <DependentUpon>Registro_Afiliaciones_Dialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro_Contrato_Dialog.resx">
+      <DependentUpon>Registro_Contrato_Dialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro_DatosFamiliar_Dialog.resx">
+      <DependentUpon>Registro_DatosFamiliar_Dialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro_Form.resx">
+      <DependentUpon>Registro_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerDocumentacion_Form.resx">
+      <DependentUpon>VerDocumentacion_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerDocum_AdjRenov_Dialog.resx">
+      <DependentUpon>VerDocum_AdjRenov_Dialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerDocum_ListCoinc_Dialog.resx">
+      <DependentUpon>VerDocum_ListCoinc_Dialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerDocum_ModifDat_Dialog.resx">
+      <DependentUpon>VerDocum_ModifDat_Dialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerDocum_VerOtrDat_Dialog.resx">
+      <DependentUpon>VerDocum_VerOtrDat_Dialog.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icono.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

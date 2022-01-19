@@ -1,0 +1,9 @@
+C:\Users\OSCAR\Desktop\ContractApp\Version 0.1\bin\Debug\ContractApp.exe
+C:\Users\OSCAR\Desktop\ContractApp\Version 0.1\bin\Debug\ContractApp.pdb
+C:\Users\OSCAR\Desktop\ContractApp\Version 0.1\bin\Debug\ContractApp.xml
+C:\Users\OSCAR\Desktop\ContractApp\Version 0.1\obj\x86\Debug\ContractApp.Resources.resources
+C:\Users\OSCAR\Desktop\ContractApp\Version 0.1\obj\x86\Debug\ContractApp.vbproj.GenerateResource.Cache
+C:\Users\OSCAR\Desktop\ContractApp\Version 0.1\obj\x86\Debug\ContractApp.exe
+C:\Users\OSCAR\Desktop\ContractApp\Version 0.1\obj\x86\Debug\ContractApp.xml
+C:\Users\OSCAR\Desktop\ContractApp\Version 0.1\obj\x86\Debug\ContractApp.pdb
+C:\Users\OSCAR\Desktop\ContractApp\Version 0.1\obj\x86\Debug\ContractApp.Principal_Form.resources

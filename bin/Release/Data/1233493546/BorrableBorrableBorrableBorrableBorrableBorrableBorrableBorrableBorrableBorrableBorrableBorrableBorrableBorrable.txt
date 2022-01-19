@@ -1,0 +1,23 @@
+
+
+
+
+typedef unsigned char *va_list;
+#define va_start(list, param) (list = (((va_list)&param) + sizeof(param)))
+#define va_arg(list, type)    (*(type *)((list += sizeof(type)) - sizeof(type)))
+
+
+
+http://licfisica.udistrital.edu.co:8080/electivas
+https://www.dropbox.com/sh/0o6tj0bqoc517fe/AACxhud0qXuzMqvGTGA0LPt7a/horarios_20191_Facultad_Ciencias.pdf?dl=0
+
+
+
+arrProp = BitConverter.GetBytes(dt.Ticks);
+
+DateTime myDateTime = DateTime.FromBinary(BitConverter.ToInt64(arrProp, 0))
+
+
+
+
+https://estudiantes.portaloas.udistrital.edu.co/appserv/clase/verifica.class.php
